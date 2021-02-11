@@ -1,0 +1,22 @@
+{
+  "name": "nested-monorepo",
+  "version": "0.0.0",
+  "main": "index.js",
+  "author": "Bartosz Szkolnik",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/**"
+  ],
+  "scripts": {
+    "watch:core": "yarn workspace nymphajs watch:core",
+    "watch:common": "yarn workspace nymphajs watch:common",
+    "watch:dom-api": "yarn workspace nymphajs watch:dom-api",
+    "watch": "concurrently \"yarn watch:core\" \"yarn watch:common\" \"yarn watch:dom-api\"",
+    "dev": "yarn workspace nymphajs-mario-game dev",
+    "build": "yarn workspace nymphajs-mario-game build"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0"
+  }
+}

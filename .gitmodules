@@ -1,0 +1,6 @@
+[submodule "packages/nymphajs"]
+	path = packages/nymphajs
+	url = https://github.com/neny95js/nymphajs.git
+[submodule "packages/nymphajs-mario-game"]
+	path = packages/nymphajs-mario-game
+	url = https://github.com/neny95js/nymphajs-mario-game.git
