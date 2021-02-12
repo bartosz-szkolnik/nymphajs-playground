@@ -4,3 +4,6 @@
 [submodule "packages/nymphajs-mario-game"]
 	path = packages/nymphajs-mario-game
 	url = https://github.com/neny95js/nymphajs-mario-game.git
+[submodule "packages/nymphajs-tetris-game"]
+	path = packages/nymphajs-tetris-game
+	url = https://github.com/neny95js/nymphajs-tetris-game.git
