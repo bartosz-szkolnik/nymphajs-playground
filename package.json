@@ -14,7 +14,8 @@
     "watch:dom-api": "yarn workspace nymphajs watch:dom-api",
     "watch:network": "yarn workspace nymphajs watch:network",
     "watch:server": "yarn workspace nymphajs watch:server",
-    "watch": "concurrently \"yarn watch:core\" \"yarn watch:common\" \"yarn watch:dom-api\" \"yarn watch:network\" \"yarn watch:server\"",
+    "watch": "concurrently \"yarn watch:core\" \"yarn watch:common\" \"yarn watch:dom-api\"",
+    "watch-with-network": "concurrently \"yarn watch:core\" \"yarn watch:common\" \"yarn watch:dom-api\" \"yarn watch:network\" \"yarn watch:server\"",
     "dev": "yarn workspace nymphajs-mario-game dev",
     "build": "yarn workspace nymphajs-mario-game build"
   },
